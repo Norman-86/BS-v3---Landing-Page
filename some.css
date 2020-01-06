@@ -1,0 +1,48 @@
+body {
+	background: url(https://images.unsplash.com/photo-1575905283836-a741eb65a192?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=777&q=80);
+	background-repeat: no-repeat; /*stops background image from being repeated/tiled*/
+	background-size: cover;  /*makes the background image to cover the whole page*/
+	background-position: center; /*positions the background image to the center while covering whole width*/
+	font-family: lato;
+	color:white;   /*sets the body color to white but cant interfere with other text that are have id (specific) */
+}
+
+html {
+	height: 100%; /*makes the html take the entire height of the page*/
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;   /*this number centers the content id and makes it responsive*/
+	text-shadow: 0px 4px 3px red,
+				 0px 8px 13px orange,  /*uses a combination of X and Y offsets, blur radius and color.*/
+				 0px 18px 23px yellow;
+				/* 0px 4px 3px rgba (0,0,0,0.4),
+				 0px 8px 13px rgba (0,0,0,0.1),   - less exciting but professional text shadow
+				 0px 18px 23px (0,0,0,0.1);*/
+}
+
+/*h1,h3 {
+	color:white; this is another way of picking elements and giving them the same style
+}*/
+
+h1 {
+	font-weight: 800;
+	font-size: 5em;
+}
+
+hr	{
+	width:400px;
+	border-top:1px solid #f8f8f8; 
+	border-bottom:1px solid rgba(0,0,0,0.2); /*-gives the shadow effect to the bottom border*/
+}
+
+
+.navbar-inverse {         /*changes the colour of the navbar*/
+	background:purple;
+	border-color: #425766;
+}
+
+.navbar-default .navbar-text {   /*changes the text color of the navabar content*/
+   color: #d7e2e9;
+}
